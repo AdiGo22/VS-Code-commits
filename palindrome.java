@@ -1,7 +1,7 @@
 //print palindrome numbers within the range of upper limit and lower limit
 
 import java.util.*;
-public class Accenture1{
+public class palindrome{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         //accept the upper and lower limits
@@ -9,6 +9,8 @@ public class Accenture1{
         int lower = sc.nextInt();
          int upper = sc.nextInt();
         //to be made a boolean function isPalindrome that returns true or false regarding condition
+
+        sc.close();
         for(int i=lower;i<=upper;i++){
             if(isPalindrome(i)){   //if it holds true
             System.out.print(i +" " ); //print those i with matching conditions

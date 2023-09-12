@@ -22,6 +22,8 @@ class subsetss
                 System.out.print(sum+" ");
             }
             System.out.println();
+
+            sc.close();
         }  
     }
 }
